@@ -44,7 +44,7 @@ const Navbar = () => {
     <nav className='navbar bg-dark'>
     <h1>
       <Link to='/'>
-        <i className='fas fa-code' /> SocialSite
+        <i className='fas fa-heart' /> 
       </Link>
      </h1>
         {guestLinks}
