@@ -8,7 +8,6 @@ const { check, validationResult } = require('express-validator/check');
 
 const User = require('../../models/User');
 
-
 router.post(
   '/',
   [
@@ -26,7 +25,7 @@ router.post(
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
-
+    
     const { name, email, password } = req.body;
 
     try {
