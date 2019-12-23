@@ -1,14 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Dashboard =props=>{
+const Dashboard =()=>{
     return (
         <div>
             Dashboard
         </div>
     )
 }
-Dashboard.PropTypes={
 
-}
 export default Dashboard;
