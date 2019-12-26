@@ -4,7 +4,7 @@ import {getCurrentProfile} from '../../actions/profile';
 import PropTypes from 'prop-types';
 import Spinner from '../Layout/Spinner';
 import {Link} from 'react-router-dom';
-
+import DashboardAction from './DashboardAction';
 const Dashboard =({getCurrentProfile,auth:{user},profile:{profile,loading}})=>{
     useEffect(()=>{
        getCurrentProfile();
@@ -17,7 +17,7 @@ const Dashboard =({getCurrentProfile,auth:{user},profile:{profile,loading}})=>{
          </p>
          {profile != null ?
             <Fragment>
-                Profile
+                <DashboardAction />
             </Fragment> 
                 : 
             <Fragment>
