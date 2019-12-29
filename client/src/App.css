@@ -333,7 +333,7 @@ button {
 /* Landing Page */
 .landing {
   position: relative;
-  background: url('./images/dashboard.jpg') no-repeat center center/cover;
+  background: url('./img/dashboard.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 
